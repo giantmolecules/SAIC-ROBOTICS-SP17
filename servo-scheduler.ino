@@ -29,6 +29,7 @@ Timer moveTimer(1000, stop, true);
 void setup() {
     
     // Attach servos to pins
+    // Available Pins: A4, A5, WKP, RX, TX, D0, D1, D2, D3
     servoLeft.attach(0);
     servoRight.attach(1);
     
